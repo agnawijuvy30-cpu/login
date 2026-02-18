@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Juvy Agnawi Registration & LogIn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+    <!-- REGISTER -->
+    <div class="card">
+        <h2>Create Account</h2>
+
+        <form>
+            <div class="input-group">
+                <label>First Name</label>
+                <input type="text" placeholder="Juan">
+            </div>
+
+            <div class="input-group">
+                <label>Last Name</label>
+                <input type="text" placeholder="Dela Cruz">
+            </div>
+
+            <div class="input-group">
+                <label>Email Address</label>
+                <input type="email" placeholder="example@email.com">
+            </div>
+
+            <div class="input-group">
+                <label>Username</label>
+                <input type="text" placeholder="Choose username">
+            </div>
+
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" placeholder="Enter password">
+            </div>
+
+            <div class="input-group">
+                <label>Confirm Password</label>
+                <input type="password" placeholder="Confirm password">
+            </div>
+
+            <div class="input-group">
+                <label>Phone Number</label>
+                <input type="tel" placeholder="09XXXXXXXXX">
+            </div>
+
+            <div class="input-group">
+                <label>Date of Birth</label>
+                <input type="date">
+            </div>
+
+            <button type="button" class="btn primary">Register</button>
+        </form>
+
+        <p class="switch">
+            Already have an account?
+            <a href="#login">Login</a>
+        </p>
+    </div>
+
+
+    <!-- LOGIN -->
+    <div class="card" id="login">
+        <h2>Log In</h2>
+
+        <form>
+            <div class="input-group">
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter your email">
+            </div>
+
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" placeholder="Enter password">
+            </div>
+
+            <a href="#" class="forgot">Forgot Password?</a>
+
+            <button type="button" class="btn secondary">Login</button>
+        </form>
+
+        <p class="switch">
+            Don’t have an account?
+            <a href="#">Register</a>
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
